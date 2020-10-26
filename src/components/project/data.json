@@ -1,0 +1,107 @@
+{
+    "projects":[
+            {
+                "video_link":"https://www.youtube.com/embed/rKwmf_wycCw",
+                "title":"7 OF JULY",
+                "synopsis":"A group of friends plan to get famous making youtube videos of drunk people in \"San Fermin\". Everything seems to be going well for them but strange things start to happen arround them, sadly they are too drunk to notice",
+                "cast":{
+                    "direction":"David Muela & Daniel Cascales",
+                    "script":"David Muela",
+                    "photography":"Daniel Cascales",
+                    "actors":[
+                        {"name":"Gorka García ",
+                         "role":"(as Laia), "
+                        },
+                        {"name":"Julen Aranguren ",
+                         "role":"(as himself), "
+                        },
+                        {"name":"Andoni Pelegrí ",
+                         "role":"(as himself), "
+                        },
+                        {"name":"David Muela ",
+                         "role":"(as himself), "
+                        },
+                        {"name":"Daniel Casales ",
+                         "role":"(as the cameraman), "
+                        }
+                    ]
+                }
+            },
+            {
+                "video_link":"https://www.youtube.com/embed/kqKA42AnCNw",
+                "title":"IN THE FLOCKA",
+                "synopsis":"Pau has met a beautiful girl on the internet, but he's never seen her. Now ther're going to meet in the \"Floka\". Pau will go to a paralel reality where not everything is what it seems...",
+                "cast":{
+                    "direction":"David Muela",
+                    "script":"David Muela & Julen Aranguren",
+                    "photography":"Julián Acunza",
+                    "actors":[
+                        {"name":"Toni Padilla ",
+                         "role":"(as Dani), "
+                        },
+                        {"name":"Victoria Camps ",
+                         "role":"(as Laia), "
+                        },
+                        {"name":"Mª Luisa Cerezo Sifas ",
+                         "role":"(as Abuela), "
+                        },
+                        {"name":"Lorena Sierra",
+                            "role":"(as Ana)"
+                        }
+                    ]
+                }
+            },
+            {
+                "video_link":"https://www.youtube.com/embed/fEFM0DTYowY",
+                "title":"TOC",
+                "synopsis":"Gerard suffers from a mental disorder called OCD (Obsessive-compulsive disorder), and it's been difficult for him to get a girlfiend. Today that's going to change, he has met Julia, a beautiful girl from tinder and he wont allow his OCD to get in his way!",
+                "cast":{
+                    "direction":"David Muela",
+                    "script":"David Muela",
+                    "photography":"Iñaki Gorraiz",
+                    "actors":[
+                        {"name":"Abragam asensio ",
+                         "role":"(as Gerard), "
+                        },
+                        {"name":"Marta Domingo ",
+                         "role":"(as Julia), "
+                        },
+                        {"name":"Jordi Miras Molas ",
+                         "role":"(as male OCD), "
+                        },
+                        {"name":"Carla Vilaró",
+                            "role":"(as female OCD)"
+                        }
+                    ]
+                }
+            },
+            {
+                "video_link":"https://www.youtube.com/embed/HoadGHipdUw",
+                "title":"Again - Ivory Tusk",
+                "synopsis":"Ivory Tusk is the pseudonym of Argentinian singer-songwriter Ezequiel de Lima, now based in Barcelona. The project was born as a means to a journey to explore the limits of the solo singer-songwriter persona. A troubadour who has traveled through US and Europe, he has been praised for his transparent and honest compositions, based on complex fingerpicking patterns on the acoustic guitar and thoughtful and reflective poetry.",
+                "cast":{
+                    "direction":"Julen Aranguren",
+                    "script":"Julen Aranguren & Ivory Tusk",
+                    "photography":"David Hernández",
+                    "actors":[
+                        {"name":"Ezequiel de Lima ",
+                         "role":", "
+                        },
+                        {"name":"Andoni Pelegrí ",
+                         "role":", "
+                        },
+                        {"name":"Julen Aranguren ",
+                         "role":", "
+                        },
+                        {"name":"Laura Mira",
+                            "role":""
+                        },
+                        {"name":"Mauro Badía",
+                            "role":""
+                        }
+                    ]
+                }
+            }
+    ]
+}
+

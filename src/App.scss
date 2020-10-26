@@ -1,0 +1,113 @@
+.App {
+  background-color: #101010;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  height: 100vh !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.links {
+  position: absolute;
+  right: 1.5vw;
+  bottom: 3vh;
+
+  &_button {
+    display: block;
+    height: 45px;
+    width: 45px;
+    border-radius: 20px;
+    align-self: center;
+
+    &:hover {
+      transition: all 0.5s;
+      transform: scale(1.1)
+    }
+  }
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #FF9900;
+}
+
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: #101010;
+  padding: 2.5em 1.5em 0;
+  font-size: 2em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #FF9900;
+  padding: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bm-item {
+  text-decoration: none;
+  outline: 0;
+
+  &:visited {
+    color: #FF9900;
+    text-decoration: none;
+    outline: 0;
+  }
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.custom_menu {
+  height: 75vh !important;
+}
+
+.custom_cross {
+  height: 45px !important;
+  width: 45px !important;
+
+  span {
+    right: 10px !important;
+
+    span {
+      width: 6px !important;
+      height: 25px !important;
+    }
+  }
+}

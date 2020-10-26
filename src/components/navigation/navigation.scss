@@ -1,0 +1,44 @@
+.nav {
+  background-color: #101010;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 60px;
+  z-index: 2;
+
+  &_item {
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+    font-size: large;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    text-decoration: none;
+
+    &:hover {
+      transition: ease-in .1s;
+      transform: scale(1.1) rotate(-90deg);
+      opacity: 1;
+    }
+
+    &_active {
+      color: #FF9900;
+      opacity: 1;
+      font-size: larger;
+    }
+  }
+
+  &::after {
+    content: ""; // ::before and ::after both require content
+    position: absolute;
+    top: 2vh;
+    left: 90px;
+    width: 150px;
+    height: 100px;
+    background-image: url('./logoTximenea.png');
+    background-size: contain;
+  }
+}

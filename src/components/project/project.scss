@@ -1,0 +1,147 @@
+.project{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  background-color: #020202;
+
+  &_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height:60%;
+
+    &_mobile{
+      margin-top: 65px;
+    }
+  }
+
+  &_backBtn{
+    cursor: pointer;
+    z-index: 1;
+    padding-bottom: 20px;
+    &:hover{
+      transition: all 0.1s;
+      color: #FF9900; 
+      transform:scale(1.1)
+  }
+    &_mobile{
+      position: absolute;
+      right: 36px;
+      top: 36px;
+      height: 36px;
+      width: 36px;
+      background-image: url("./prev_arrow.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &_background{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  &_vimeo{
+    z-index: 1;
+    height: 95%;
+    width: 100%;
+  }
+
+  &_description{
+    z-index: 1;
+    width: 20vw;
+    margin: 20px;
+
+    &_synopsis{
+      font-family: 'Roboto', sans-serif;
+      font-size: large;
+      &_mobile{
+        font-size: medium;
+      }
+    }
+  
+    &_cast{
+      list-style-type: none;
+      font-family: 'Roboto', sans-serif;
+      padding:0;
+      font-size:medium;
+  
+      li::before {
+        content: "\2022";  
+        color: #FF9900; 
+        margin-right: 2px;
+      }
+    }
+  
+    b{
+      color:#FF9900
+    }
+    i{
+      font-weight: 200;
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 1450px) {
+  .project{
+    &_vimeo{
+      height: 80%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .project{
+    flex-direction: column;
+
+  &_wrapper{
+    height: auto;
+  }
+
+  &_vimeo{
+      height: 40vh;
+    }
+
+  &_description{
+    width: 60vw;
+    margin: 0px;
+
+    &_synopsis{
+      font-size: large;
+    }
+  
+    &_cast{
+      font-size:small;
+    }
+  }
+}
+}
+
+@media screen and (max-width: 950px) {
+  .project{
+    flex-direction: column;
+
+  &_vimeo{
+      height: 30vh;
+    }
+}
+}
+
+@media screen and (max-width: 650px) {
+  .project{
+    flex-direction: column;
+
+  &_vimeo{
+      height: 20vh;
+    }
+}
+}
